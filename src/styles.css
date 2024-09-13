@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-light  {
+    background-color: #e82a89 !important;
+   
+   }
+   .btn {
+    background-color: #7a1354 !important;
+   }
+   .nav-link {
+    color: #ffff !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+   }
+   p {
+    font-size: 0.8rem;
+   }
+
+   .card-body {
+    background-color: #6c738f !important;
+    color: white !important;
+   }
+    .book-div {
+        padding: 80px 0;
+    }
+
+     .card-img-top {
+        height: 210px !important;
+     }
+     .modal .modal-dialog {
+    position: absolute;
+    width: 100%;
+    right: 10px;
+    bottom: 10px;
+    margin: 0;
+}
+     .modal .modal-dialog  {
+    top: 10px;
+    right: 10px;
+}
+
+/* Container spacing and background */
+.schedule-section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+/* Card styling */
+.card {
+    width: 18rem;
+    margin: 20px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+/* Image styling */
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styling */
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn-primary {
+    display: block;
+    width: 100%;
+    background-color: #d63384;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #c21873;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .card-img-top {
+        height: 250px;
+    }
+}
